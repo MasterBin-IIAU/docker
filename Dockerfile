@@ -132,7 +132,7 @@ RUN conda install -y pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytor
 RUN pip install timm==0.1.20 && \
     pip install git+https://github.com/sovrasov/flops-counter.pytorch.git && \
     pip install git+https://github.com/Tramac/torchscope.git && \
-    pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git && \
+    pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
 
 
 RUN git clone https://6118ea11005ed90a5aac945fccdee34a762d44d9@github.com/MasterBin-IIAU/lighttrack.git && \
