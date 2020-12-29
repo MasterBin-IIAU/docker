@@ -13,7 +13,7 @@ FROM mcr.microsoft.com/azureml/o16n-base/python-assets@sha256:20a8b655a3e5b9b0db
 # Label: com.nvidia.volumes.needed=nvidia_driver
 # Ubuntu 18.04
 #FROM nvidia/cuda:11.0-devel-ubuntu18.04
-FROM nvidia/cuda:10.1-cudnn7-devel-ubuntu16.04
+FROM nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
 USER root:root
 
 ENV com.nvidia.cuda.version $CUDA_VERSION
