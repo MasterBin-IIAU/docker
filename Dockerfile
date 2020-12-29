@@ -113,7 +113,7 @@ RUN mkdir /tmp/openmpi && \
 #RUN conda install -c r -y conda python=3.6.2 pip=20.1.1
 RUN conda install -c r -y conda python=3.7.9 pip=20.1.1
 # here we don't install h5py
-RUN conda install -y numpy pyyaml scipy ipython mkl scikit-learn matplotlib pandas setuptools Cython h5py graphviz libgcc mkl-include cmake cffi typing cython && \
+RUN conda install -y numpy pyyaml scipy ipython mkl scikit-learn matplotlib pandas setuptools Cython graphviz libgcc mkl-include cmake cffi typing cython && \
     conda install -y mpi4py && \
     conda install -y -c mingfeima mkldnn && \
     conda install -c anaconda gxx_linux-64
