@@ -135,7 +135,7 @@ RUN pip install timm==0.1.20 && \
     pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
 
 
-RUN git clone https://6118ea11005ed90a5aac945fccdee34a762d44d9@github.com/MasterBin-IIAU/lighttrack.git && \
+RUN git clone https://MasterBin-IIAU:Binshu2797GIT@github.com/MasterBin-IIAU/lighttrack.git && \
     cd lighttrack && \
     cd lib/models/EfficientNet-PyTorch && \
     pip install -e . && \
