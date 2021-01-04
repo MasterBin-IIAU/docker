@@ -98,8 +98,7 @@ RUN conda install -y numpy pyyaml scipy ipython mkl scikit-learn matplotlib pand
     conda install -c anaconda gxx_linux-64
 RUN conda clean -ya
 #RUN pip install boto3 addict tqdm regex pyyaml opencv-python opencv-contrib-python azureml-defaults nltk spacy future tensorboard wandb filelock tokenizers sentencepiece
-RUN pip install regex pyyaml opencv-contrib-python azureml-defaults future && \
-
+RUN pip install regex pyyaml opencv-contrib-python azureml-defaults future
 
 # Set CUDA_ROOT
 RUN export CUDA_HOME="/usr/local/cuda"
