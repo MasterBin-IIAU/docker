@@ -117,5 +117,7 @@ RUN pip install yacs && \
     pip install pycocotools && \
     # apt-get install libturbojpeg && \
     pip install jpeg4py && \
-    pip install tb-nightly
+    pip install tb-nightly && \
+    pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
+
 
