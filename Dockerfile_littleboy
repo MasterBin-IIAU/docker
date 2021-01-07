@@ -109,7 +109,8 @@ RUN export CUDA_HOME="/usr/local/cuda"
 RUN conda install -y pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.2 -c pytorch
 
 # Install other packages
-RUN pip install yacs && \
+RUN pip install PyYAML && \
+    pip install easydict && \
     pip install cython && \
     pip install opencv-python && \
     pip install pandas && \

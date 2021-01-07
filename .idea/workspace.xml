@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5713cfdc-8da8-4514-99e9-6842503be120" name="Default Changelist" comment="" />
+    <list default="true" id="5713cfdc-8da8-4514-99e9-6842503be120" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +56,9 @@
       <updated>1609760783724</updated>
       <workItem from="1609760784834" duration="2029000" />
       <workItem from="1609770297221" duration="3499000" />
+      <workItem from="1609833199057" duration="96000" />
+      <workItem from="1609860218627" duration="453000" />
+      <workItem from="1609936755740" duration="27000" />
     </task>
     <servers />
   </component>
@@ -77,5 +82,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="694" y="382" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/1920.0.1200.1880@0.0.1920.1160" timestamp="1609760824171" />
+    <state x="749" y="282" key="RollbackChangesDialog" timestamp="1609860667649">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="749" y="282" key="RollbackChangesDialog/0.0.1920.1160/1920.0.1200.1880@0.0.1920.1160" timestamp="1609860667649" />
   </component>
 </project>
