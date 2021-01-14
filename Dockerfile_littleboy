@@ -119,6 +119,7 @@ RUN pip install PyYAML && \
     # apt-get install libturbojpeg && \
     pip install jpeg4py && \
     pip install tb-nightly && \
+    pip install tikzplotlib && \
     pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git
 
 
