@@ -121,6 +121,7 @@ RUN pip install PyYAML && \
     pip install tikzplotlib && \
     pip install --upgrade git+https://github.com/Lyken17/pytorch-OpCounter.git && \
     pip install lmdb && \
-    pip install scipy
+    pip install scipy && \
+    pip install visdom
 
 
