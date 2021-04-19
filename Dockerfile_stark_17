@@ -123,6 +123,7 @@ RUN pip install PyYAML && \
     pip install lmdb && \
     pip install scipy && \
     pip install visdom && \
-    pip install git+https://github.com/votchallenge/vot-toolkit-python
+    pip install git+https://github.com/votchallenge/vot-toolkit-python && \
+    pip install yacs
 
 
