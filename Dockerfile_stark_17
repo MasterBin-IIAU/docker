@@ -124,6 +124,6 @@ RUN pip install PyYAML && \
     pip install scipy && \
     pip install visdom && \
     pip install git+https://github.com/votchallenge/vot-toolkit-python && \
-    pip install yacs
-
+    pip install yacs && \
+    pip install timm==0.3.2
 
